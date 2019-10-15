@@ -1,0 +1,1 @@
+Adds shared doors and trapdoors (built for areas mod).

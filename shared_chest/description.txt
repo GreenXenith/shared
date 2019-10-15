@@ -1,0 +1,1 @@
+Adds shared chests (built for areas mod).
