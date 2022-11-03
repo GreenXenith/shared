@@ -103,7 +103,7 @@ local function register_shared_door(name, def)
 	end
 
 	doors.register("shared_doors:door_shared_"..name, {
-			tiles = {{name = "doors_door_"..name..".png^shared_door_lock.png", backface_culling = true}},
+			tiles = {{name = "doors_door_"..name..".png^shared_door_lock.png"}},
 			description = "Shared "..name:gsub("^%l", string.upper).." Door",
 			inventory_image = "doors_item_"..name..".png^shared_lock.png",
 			protected = def.protected,
